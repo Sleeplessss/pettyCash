@@ -1,0 +1,42 @@
+.vtap-subheight {
+  height: 60px!important;
+}
+.vtap-height {
+  height: 60px;
+}
+/* .vtap-subfont {
+  font-family: Roboto,sans-serif!important;
+  line-height: 1!important;
+  font-size: 14px!important;
+} */
+.status_button{
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+.clock-center>div>div>div>input{
+  text-align: center;
+}
+.status_button:hover{
+  cursor: default;
+}
+.status_process{
+  background-color: orange;
+}
+.status_approved{
+  background-color: green;
+}
+.status_rejected{
+  background-color: red;
+}
+.status_canceled{
+  background-color: rgb(151, 145, 145);
+}

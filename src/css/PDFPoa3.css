@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Cordia New' !important;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 0cm;
+  margin: 1.5cm auto;
+  background: white;
+}
+
+.subpage {
+  padding: 1.5cm;
+  height: 256mm;
+  font-family: 'Cordia New' !important;
+  color:black;
+  font-size: 14pt !important;
+  text-align: justify;
+  background-color: white;
+
+}
+.subpage2 {
+  /* padding: 1.3cm; */
+  padding-top: 4.2;
+  padding-left: 2.06;
+  padding-right: 2.27;
+  padding-bottom: 2.6;
+  height: 240mm;
+  font-family: 'Cordia New' !important;
+  color:black;
+  font-size: 14pt !important;
+  text-align: justify;
+  background-color: white;
+}
+
+span{
+  font-family: 'Cordia New' !important;
+  font-size: 14pt !important;
+}
+.nocontract{
+    font-family: 'Cordia New' !important;
+    font-size: 14pt !important;
+    font-weight: bold;
+}
+.nocontract2{
+    font-family: 'Cordia New' !important;
+    font-size: 14pt !important;
+}
+.contract {
+  font-family: 'Cordia New' !important;
+  text-align: center;
+  font-size: 14pt !important;
+}
+.headcontract{
+  font-family: 'Cordia New Bold' !important;
+  font-size: 14pt !important;
+}
+.topic{
+  font-family: 'Cordia New' !important;
+  font-size: 14pt !important;
+  margin-bottom: 1px;
+}
+.tap{
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.v-btn--floating {
+  position: relative;
+}
+.v-speed-dial {
+  position: fixed;
+}
+
+.sign-margin {
+  margin-bottom: 20px;
+}
